@@ -1,0 +1,22 @@
+.lake {
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2022/01/30/12/39/mountains-6980701_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: blur(100px);
+}
+ 
+.number {
+    position: absolute;
+    top: 50%;
+    left:45%;
+    font-size: 60px;
+    color:rgb(255, 0, 0);
+    transform: translateY(-50%);
+}
+ 
+body {
+    overflow: hidden;
+    font-family: arial;
+    margin: 0;
+}
